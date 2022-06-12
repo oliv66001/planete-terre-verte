@@ -1,1 +1,96 @@
+.logo {
+  max-width: 100px;
+}
 
+p {
+  text-aling: left;
+  text-justify-content: center;
+  margin: 20px;
+}
+
+.image {
+  max-width: 400px;
+  max-height: 200px;
+  box-shadow: 3px 3px 3px black;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-left: 100px;
+  text-aling: inline-block;
+  padding: 30px;
+}
+#btndon {
+  background: linear-gradient(white, #9198e5);
+  padding: 10px;
+  margin: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  background: linear-gradient(white, #9198e5);
+  height: 130px;
+}
+
+#btnenv {
+  background: linear-gradient(white, #9198e5);
+  padding: 10px;
+  margin: 20px;
+}
+
+.consentement {
+  text-justify: center;
+}
+@media (max-width: 600px) {
+  #nuage {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  #nuage1 {
+    display: none;
+  }
+}
+
+.clignote {
+  color: blue;
+  animation: clignote 2s linear infinite;
+  font-size: 40px;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.social {
+  text-align: center;
+  text-justify-content: align;
+}
+
+#image-foot {
+  padding: 20px;
+}
+
+#btnrec {
+  background: linear-gradient(white, #9198e5);
+}
+
+.contenant {
+  position: relative;
+  text-align: top;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 52px;
+}

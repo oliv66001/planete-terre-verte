@@ -1,0 +1,13 @@
+#submit {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background: linear-gradient(white, rgb(81, 142, 248));
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#titre {
+  margin-left: 20px;
+}

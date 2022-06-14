@@ -27,18 +27,6 @@ h1 {
   margin: 20px;
 }
 
-footer {
-  margin-top: 30px;
-  background: linear-gradient(white, #9198e5);
-  height: 130px;
-}
-
-#btnenv {
-  background: linear-gradient(white, #9198e5);
-  padding: 10px;
-  margin: 20px;
-}
-
 .consentement {
   text-justify: center;
 }
@@ -47,21 +35,10 @@ footer {
     display: none;
   }
 }
-@media (max-width: 600px) {
-  #nuage1 {
-    display: none;
-  }
-}
-
-.clignote {
-  color: blue;
-  animation: clignote 2s linear infinite;
-  font-size: 40px;
-}
-@keyframes clignote {
-  50% {
-    opacity: 0;
-  }
+footer {
+  margin-top: 30px;
+  background: linear-gradient(white, #9198e5);
+  height: 130px;
 }
 
 ul {
@@ -74,23 +51,32 @@ ul {
   text-justify-content: align;
 }
 
+.btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  padding: 50px;
+  background: linear-gradient(white, #9198e5);
+  text-font-sizes: 20px;
+}
+
 #image-foot {
+  border-radius: 10px;
   padding: 20px;
 }
 
-#btnrec {
+/*#btnrec {
   background: linear-gradient(white, #9198e5);
 }
-
-.contenant {
-  position: relative;
-  text-align: top;
+#btndon1 {
+}
+*/
+#btnins {
+  margin-left: 30px;
 }
 
-.texte_centrer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 52px;
+#nuage1 {
+  padding: 100px;
+  text-align: center;
+  margin: 20 20 20 20;
 }

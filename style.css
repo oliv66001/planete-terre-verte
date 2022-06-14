@@ -65,25 +65,14 @@ ul {
   padding: 20px;
 }
 
-/*#btnrec {
-  background: linear-gradient(white, #9198e5);
-}
-#btndon1 {
-}
-*/
 #btnins {
   margin-left: 30px;
 }
 
-#nuage1 {
-  padding: 50px;
-  text-align: center;
-  margin: 20 0 20 0;
-}
-
 span {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 25px;
 }
 
 .carousel {

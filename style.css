@@ -85,3 +85,8 @@ span {
   text-align: center;
   padding: 10px;
 }
+
+.carousel {
+  margin-top: 30px;
+  border-radius: 20px;
+}

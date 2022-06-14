@@ -76,7 +76,12 @@ ul {
 }
 
 #nuage1 {
-  padding: 100px;
+  padding: 50px;
   text-align: center;
-  margin: 20 20 20 20;
+  margin: 20 0 20 0;
+}
+
+span {
+  text-align: center;
+  padding: 10px;
 }

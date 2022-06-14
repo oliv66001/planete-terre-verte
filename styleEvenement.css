@@ -21,15 +21,28 @@ h3 {
   padding: 30px;
   text-align: center;
 }
+h4 {
+  text-align: center;
+}
 
 h5 {
   text-align: center;
   padding: 50px;
+  font-size: 33px;
 }
 
 .clignote {
   color: green;
   animation: clignote 2s linear infinite;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+.clignote1 {
+  color: blue;
+  animation: clignote 1s linear infinite;
 }
 @keyframes clignote {
   50% {
@@ -58,7 +71,7 @@ h5 {
 footer {
   margin-top: 30px;
   background: linear-gradient(white, #9198e5);
-  height: 140px;
+  height: 110px;
 }
 
 ul {
@@ -75,7 +88,7 @@ ul {
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 3px 3px 5px black;
-
+  text-align: center;
   background: linear-gradient(white, #9198e5);
   text-font-sizes: 20px;
 }
@@ -90,6 +103,17 @@ img {
 
 .form-group {
   padding: 15px;
-
   margin: 20 30 20 100;
+}
+
+.card-body {
+  background: linear-gradient(white, #9198e5);
+  font-size: 23px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card {
+  text-align: center;
+  font-size: 23px;
 }

@@ -2,18 +2,11 @@
   max-width: 100px;
 }
 
-p {
-  text-aling: left;
-  text-justify-content: center;
-  margin: 20px;
-}
-
 .image {
-  max-width: 400px;
-  max-height: 200px;
+  max-width: 335px;
+  max-height: 190px;
   box-shadow: 3px 3px 3px black;
-  margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 h1 {
@@ -21,20 +14,32 @@ h1 {
   text-aling: inline-block;
   padding: 30px;
 }
-#btndon {
-  background: linear-gradient(white, #9198e5);
-  padding: 10px;
-  margin: 20px;
+
+p {
+  margin-top: 35px;
+
+  word-spacing: normal;
 }
 
-.consentement {
-  text-justify: center;
+/*bouton correction*/
+#btndon {
+  background: linear-gradient(white, #9198e5);
+
+  margin: 20px 0px 20px 205px;
+  text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 770px) {
+  .image {
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
   #nuage {
     display: none;
   }
 }
+/*bas de page*/
 footer {
   margin-top: 80px;
   background: linear-gradient(white, #9198e5);
@@ -52,12 +57,13 @@ ul {
 }
 
 .btn {
-  border: 1px solid black;
   border-radius: 10px;
   box-shadow: 3px 3px 5px black;
-  padding: 50px;
   background: linear-gradient(white, #9198e5);
-  text-font-sizes: 20px;
+}
+
+#carouselExampleCaptions {
+  image-center: auto;
 }
 
 #image-foot {
@@ -65,14 +71,14 @@ ul {
   padding: 20px;
 }
 
-#btnins {
-  margin-left: 30px;
-}
-
 span {
   text-align: center;
-  padding: 20px;
-  font-size: 25px;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.para {
+  margin-top: 20px;
 }
 
 .carousel {

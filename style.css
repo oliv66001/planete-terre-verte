@@ -3,7 +3,7 @@
 }
 
 .image {
-  max-width: 335px;
+  max-width: 305px;
   max-height: 190px;
   box-shadow: 3px 3px 3px black;
   border-radius: 5px;
@@ -17,8 +17,6 @@ h1 {
 
 p {
   margin-top: 35px;
-
-  word-spacing: normal;
 }
 
 /*bouton correction*/
@@ -28,7 +26,7 @@ p {
   margin: 20px 0px 20px 205px;
   text-align: center;
 }
-@media (max-width: 770px) {
+@media (max-width: 750px) {
   .image {
     text-align: center;
   }

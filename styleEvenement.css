@@ -1,21 +1,42 @@
+/*logo*/
 .logo {
   max-width: 100px;
 }
-
+/*Titre principal*/
 h1 {
   padding: 30px;
   text-align: center;
 }
+/*Paragraphe*/
 p {
   padding: 20px;
+}
+/*formulaire déroulant*/
+.accordion-body {
+  border: 1px solid transparent;
+  max-width: 400px;
+  min-width: 350px;
+  text-align: center;
+}
+
+#collapseThree {
+  text-align: center;
 }
 
 #formulaire {
   text-align: center;
-  max-width: 600px;
-  text-bold: 20%;
-  padding: 30px;
+  font-size: 20px;
+  min-width: 374px;
+  max-width: auto;
+  max-height: 150px;
+
+  background: light-blue;
 }
+
+#formP {
+  text-align: center;
+}
+/*Titre de plus bas niveau*/
 
 h3 {
   padding: 30px;
@@ -31,6 +52,7 @@ h5 {
   font-size: 33px;
 }
 
+/*Fonction clignote*/
 .clignote {
   color: green;
   animation: clignote 2s linear infinite;
@@ -49,7 +71,7 @@ h5 {
     opacity: 0;
   }
 }
-
+/*Fonction responsive*/
 .consentement {
   text-justify: center;
 }
@@ -62,12 +84,7 @@ h5 {
 #titre {
   margin-left: 20px;
 }
-
-.accordion-item {
-  textarea: 15px;
-  text-align: center;
-}
-
+/*liste bas de page responsive*/
 footer {
   margin-top: 30px;
   background: linear-gradient(white, #9198e5);
@@ -83,7 +100,7 @@ ul {
   text-align: center;
   text-justify-content: align;
 }
-
+/*Boutons*/
 .btn {
   border: 1px solid black;
   border-radius: 10px;
@@ -92,7 +109,7 @@ ul {
   background: linear-gradient(white, #9198e5);
   text-font-sizes: 20px;
 }
-
+/*carrousel bas de page*/
 .carousel-inner {
   padding: 30px;
 }
@@ -100,12 +117,7 @@ ul {
 img {
   size: 500px;
 }
-
-.form-group {
-  padding: 15px;
-  margin: 20 30 20 100;
-}
-
+/* class card bas de page*/
 .card-body {
   background: linear-gradient(white, #9198e5);
   font-size: 23px;
